@@ -1,0 +1,48 @@
+.todoList {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.text {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.buttonList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.deleteButton {
+  padding: 0%;
+  height: 30px;
+  width: 30px;
+  background: none;
+  background-image: url(../../images/basket-svgrepo-com.svg);
+  background-size: contain;
+  border: none;
+}
+
+.completedButton {
+  padding: 0%;
+  height: 30px;
+  width: 30px;
+  background: none;
+  background-image: url(../../images/icons8-complete-50.png);
+  background-size: contain;
+  border: none;
+}
