@@ -1,7 +1,7 @@
 import React from "react";
 import StylesTodoList from "./TodoList.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteTodo, completedTodo } from "../../store/todoSlice";
+import { removeTodo, toogleTodos } from "../../store/todoSlice";
 
 const TodoList = () => {
   const todos = useSelector((state) => state.todos.todos);
@@ -19,12 +19,12 @@ const TodoList = () => {
               <li>
                 <button
                   className={StylesTodoList.deleteButton}
-                  onClick={() => dispatch(deleteTodo(todo.id))}></button>
+                  onClick={() => dispatch(removeTodo(todo.id))}></button>
               </li>
               <li>
                 <button
                   className={StylesTodoList.completedButton}
-                  onClick={() => dispatch(completedTodo(todo.id))}></button>
+                  onClick={() => dispatch(toogleTodos(todo.id))}></button>
               </li>
             </ul>
           </div>
