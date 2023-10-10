@@ -1,17 +1,22 @@
 .todoList {
   background-color: #fff;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .todoItem {
   display: flex;
+  border-radius: 10px;
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .completed {
   display: flex;
   justify-content: space-between;
   background-color: #1aa93e;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .text {

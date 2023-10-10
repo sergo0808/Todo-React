@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import StylesApp from "./App.module.css";
 import Header from "../Header/Header";
 import AddTodo from "../AddTodo/AddTodo";
