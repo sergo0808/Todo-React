@@ -9,7 +9,11 @@
   flex-grow: 1;
   padding: 8px;
   font-size: 16px;
+<<<<<<< HEAD
   border-radius: 20px 0 0 20px;
+=======
+  border: none;
+>>>>>>> cdc92af65baf18e2611f55b5d375bcca457ad370
 }
 
 .button {
