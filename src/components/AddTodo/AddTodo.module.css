@@ -9,6 +9,7 @@
   flex-grow: 1;
   padding: 8px;
   font-size: 16px;
+  border-radius: 20px 0 0 20px;
 }
 
 .button {
@@ -18,4 +19,5 @@
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 0 20px 20px 0;
 }
